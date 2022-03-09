@@ -11,11 +11,7 @@ public class loginservice {
 	@Autowired
 	public loginrepo r;
 	
-	public enum Status {
-	    SUCCESS,
-	    USER_ALREADY_EXISTS,
-	    FAILURE
-	}
+
 	
 	public void  authentication(user u ) {
 		
